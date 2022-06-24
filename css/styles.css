@@ -311,6 +311,7 @@ img {
 .team-section-title{
     padding-top: 30px;
     padding-bottom: 30px;
+    border: 1px solid #EEEEEE;
 }
 
 .team .name {
@@ -458,6 +459,7 @@ img {
     padding-left: 24px;
     padding-right: 24px;
     margin: 0;
+    border: 1px solid #EEEEEE;
 }
 .examples-title{
     margin-bottom: 4px;

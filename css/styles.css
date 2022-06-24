@@ -31,13 +31,16 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto; 
 }
 
 h1,h2,h3,h4,h5,h6,p,ul {
-    
     margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 /* header */
 
@@ -176,7 +179,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     align-content: center;
     margin: 0;
     
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 
     color: var(--primary-white-color);
 
@@ -206,6 +209,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
+    cursor: pointer;
 }
 
 
@@ -397,6 +401,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 /* work */
 .work-section {
     padding-top: 94px;
+    padding-bottom: 114px;
     margin: 0;
 }
 .work-list {
@@ -436,10 +441,7 @@ h1,h2,h3,h4,h5,h6,p,ul {
 }
 
 /* examples */
-.examples-section {
-    padding-bottom: 114px;
-    margin: 0;
-}
+
 .examples-list {
     display: flex;
     flex-wrap: wrap;
@@ -453,6 +455,8 @@ h1,h2,h3,h4,h5,h6,p,ul {
 .examples-title-list {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     margin: 0;
 }
 .examples-title{
@@ -480,12 +484,3 @@ h1,h2,h3,h4,h5,h6,p,ul {
 /* додатковий колір rgba(255, 255, 255, 0.6) */
 /* білий колір #FFFFFF */
 /* акцент #2196F3 */
-
-/* колір фону #E5E5E5 */
-
-/* треба застосувати до зображення */
-/* img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-} */

@@ -163,6 +163,9 @@ img {
 .contact-list-item .tel:focus {
     color: var(--accent-color);
 }
+.contact-icon {
+    fill: #2196F3;
+}
 
 /* hero */
 .hero-section {
